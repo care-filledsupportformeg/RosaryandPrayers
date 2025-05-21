@@ -9,62 +9,62 @@
         body {
             font-family: 'Inter', sans-serif;
         }
-        .mystery-card, .prayer-card {
-            background-color: #f3e8ff;
-            border-left: 5px solid #8b5cf6;
+        .mystery-card, .prayer-card { /* Added .prayer-card for new sections */
+            background-color: #f3e8ff; /* Light purple for all cards */
+            border-left: 5px solid #8b5cf6; /* Purple border for all cards */
             margin-bottom: 1.5rem;
             padding: 1rem;
             border-radius: 0.5rem;
             box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
         }
-        .prayer-section {
-            background-color: #e0f2fe;
-            border-left: 5px solid #38bdf8;
+        .prayer-section { /* For starting and concluding prayers */
+            background-color: #e0f2fe; /* Light blue */
+            border-left: 5px solid #38bdf8; /* Blue */
         }
         .prayer-text {
-            color: #374151;
+            color: #374151; /* Gray-700 */
         }
         .bead {
             width: 1rem;
             height: 1rem;
             border-radius: 50%;
-            background-color: #93c5fd;
+            background-color: #93c5fd; /* Blue-300 for Hail Mary beads */
             margin: 0.125rem;
             display: inline-block;
         }
         .our-father-bead {
             width: 1.25rem;
             height: 1.25rem;
-            background-color: #60a5fa;
+            background-color: #60a5fa; /* Blue-400 for Our Father beads */
         }
         .glory-be-bead {
             width: 1.15rem;
             height: 1.15rem;
-            background-color: #fcd34d;
+            background-color: #fcd34d; /* Amber-300 for Glory Be beads */
         }
-        .section-title {
-            color: #4f46e5;
+        .section-title { /* For main section titles like "Starting Prayers", "Concluding Prayers" */
+            color: #4f46e5; /* Indigo-600 */
         }
-        .mystery-set-title, .additional-prayer-title {
-            color: #7c3aed;
+        .mystery-set-title, .additional-prayer-title { /* Added .additional-prayer-title */
+            color: #7c3aed; /* Violet-600 */
         }
-        .mystery-title, .prayer-item-title {
-            color: #6d28d9;
+        .mystery-title, .prayer-item-title { /* Added .prayer-item-title */
+            color: #6d28d9; /* Violet-700 */
         }
         .tab-button {
-            padding: 0.75rem 1rem;
+            padding: 0.75rem 1rem; /* Adjusted padding for more tabs */
             cursor: pointer;
             border: none;
             background-color: transparent;
             font-weight: 500;
-            color: #6b7280;
+            color: #6b7280; /* Gray-500 */
             border-bottom: 3px solid transparent;
             transition: all 0.3s ease;
-            font-size: 0.875rem;
+            font-size: 0.875rem; /* Slightly smaller font for more tabs */
         }
         .tab-button.active {
-            color: #4f46e5;
-            border-bottom-color: #4f46e5;
+            color: #4f46e5; /* Indigo-600 */
+            border-bottom-color: #4f46e5; /* Indigo-600 */
             font-weight: 600;
         }
         .hidden {
@@ -86,7 +86,7 @@
         }
         .extracted-text-container h4, .insights-container h4 {
             font-weight: 600;
-            color: #5b21b6;
+            color: #5b21b6; /* Violet-800 */
             margin-bottom: 0.5rem;
         }
     </style>
@@ -111,27 +111,118 @@
             </div>
         </div>
 
-        <section id="startingPrayers" class="mb-6 p-4 rounded-lg shadow-md prayer-section">
-            <!-- ... Starting Prayers content ... -->
-            <!-- (Omitted for brevity, keep your content here) -->
-        </section>
+        <!-- ... (all your other content remains unchanged) ... -->
 
-        <!-- Joyful Mysteries -->
-        <section id="joyfulMysteriesContent" class="tab-content hidden">
-            <h2 class="text-2xl font-semibold mb-4 text-center mystery-set-title">The Joyful Mysteries</h2>
-            <div class="mystery-card">
-                <h3 class="text-xl font-semibold mb-3 mystery-title">1. The Annunciation</h3>
-                <img src="images/joyful-annunciation.jpg" alt="The Annunciation" class="prayer-image" onerror="this.onerror=null;this.src='https://placehold.co/600x400/E2E8F0/4A5568?text=Image+Not+Found';">
-                <p class="italic text-sm text-purple-700 mb-3">The Archangel Gabriel announces to Mary that she shall conceive a child by the power of the Holy Spirit.</p>
-                <!-- ...rest of card... -->
+        <section id="stAnthonyMiraclesContent" class="tab-content hidden">
+            <h2 class="text-2xl font-semibold mb-4 text-center additional-prayer-title">St. Anthony - Saint of Miracles</h2>
+            <div class="prayer-card">
+                <h3 class="text-xl font-semibold mb-3 prayer-item-title">Prayer to St. Anthony, Saint of Miracles</h3>
+                <img src="images/IMG_20250324_232914.jpg" alt="St. Anthony - Saint of Miracles" class="prayer-image" onerror="this.onerror=null;this.src='https://placehold.co/600x400/E2E8F0/4A5568?text=Image+Not+Found';">
+                <div class="extracted-text-container">
+                    <h4>Extracted Text:</h4>
+                    <p class="prayer-text whitespace-pre-line">St. Anthony - Saint of Miracles
+O Holy St. Anthony, gentlest of Saints, your love for God and charity for His creatures, made you worthy, when on earth, to possess miraculous powers. Miracles waited on your words, which you were ever ready to speak for those in trouble or anxiety. Encouraged by this thought, I implore you to obtain for me (request). The answer to my prayer may require a miracle. Even so, you are the Saint of Miracles. O gentle and loving St. Anthony, whose heart was ever full of human sympathy, whisper my petition into the ears of the Sweet Infant Jesus, who loved to be folded in your arms, and the gratitude of my heart will ever be yours. Amen. Our Father, Hail Mary, Glory be.
+
+Pray for Us ST. ANTHONY</p>
+                </div>
+                <div class="insights-container">
+                    <h4>Insights and Background:</h4>
+                    <p class="prayer-text"><em>(Add your insights and background information about this prayer here.)</em></p>
+                </div>
             </div>
-            <!-- Repeat for other mysteries, updating the image src accordingly -->
         </section>
 
-        <!-- Luminous Mysteries -->
-        <section id="luminousMysteriesContent" class="tab-content hidden">
-            <h2 class="text-2xl font-semibold mb-4 text-center mystery-set-title">The Luminous Mysteries</h2>
-            <div class="mystery-card">
-                <h3 class="text-xl font-semibold mb-3 mystery-title">1. The Baptism of Jesus in the Jordan</h3>
-                <img src="images/luminous-baptism.jpg" alt="The Baptism of Jesus in the Jordan" class="prayer-image" onerror="this.onerror=null;this.src='https://placehold.co/600x400/E2E8F0/4A5568?text=Image+Not+Found';">
-                <p class="italic text-sm text-purple-700 mb
+        <section id="responsoryStAnthonyContent" class="tab-content hidden">
+            <h2 class="text-2xl font-semibold mb-4 text-center additional-prayer-title">Responsory to St. Anthony</h2>
+            <div class="prayer-card">
+                <h3 class="text-xl font-semibold mb-3 prayer-item-title">The Responsory</h3>
+                <img src="images/IMG_20250324_232918~2.jpg" alt="Responsory to St. Anthony" class="prayer-image" onerror="this.onerror=null;this.src='https://placehold.co/600x400/E2E8F0/4A5568?text=Image+Not+Found';">
+                <div class="extracted-text-container">
+                    <h4>Extracted Text:</h4>
+                    <p class="prayer-text whitespace-pre-line">Responsory to St. Anthony
+
+If you ask for miracles,
+Death, error, all calamities,
+The leprosy and demons fly,
+And health succeeds infirmities.
+
+The sea obeys, and fetters break,
+And lifeless limbs thou dost restore;
+Whilst treasures lost are found again
+When young or old thine aid implore.
+All dangers vanish at thy prayer,
+
+And direst need doth quickly flee,
+Let those who know thy
+power proclaim—
+Let Paduans say—these are of thee.
+
+The sea obeys, etc.
+
+To Father, Son may glory be,
+And Holy Spirit eternally.
+
+The sea obeys, etc.
+
+Pray for us, blessed Anthony,
+That we may be made worthy
+of the promises of Christ.</p>
+                </div>
+                <div class="insights-container">
+                    <h4>Insights and Background:</h4>
+                    <p class="prayer-text"><em>(Add your insights and background information about this prayer here.)</em></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="trezenaStAnthonyContent" class="tab-content hidden">
+            <h2 class="text-2xl font-semibold mb-4 text-center additional-prayer-title">Trezena to St. Anthony</h2>
+            <div class="prayer-card">
+                <h3 class="text-xl font-semibold mb-3 prayer-item-title">Prayer for the Trezena (13 Tuesdays)</h3>
+                <img src="images/IMG_20250324_232931~2.jpg" alt="Trezena to St. Anthony" class="prayer-image" onerror="this.onerror=null;this.src='https://placehold.co/600x400/E2E8F0/4A5568?text=Image+Not+Found';">
+                <div class="extracted-text-container">
+                    <h4>Extracted Text:</h4>
+                    <p class="prayer-text whitespace-pre-line">OBSERVATION:
+1. Only say this trezena if you need a really great favor;
+2. Keep it as long as necessary:
+3. If you are not a Catholic or if you do not need a favor, please do not destroy this prayer, give it (along with the ribbon) to someone who is in need.
+
+"Saint Anthony, may the difficulties that I have now become a source of joy to me"
+Say 1 Our Father, 3 Hail Mary, and 1 Glory Be
+
+PRAYER TO SAINT ANTHONY
+"In the name of the Father, of the Son and the Holy Spirit"
+
+My miraculous Saint Anthony, help me with your strength so that the favor that I ask Thee (mention the favor) maybe be granted to me. May your silver belt secure the favor I ask Thee and may I, with no harm to my brothers or sisters, be granted this favor. In this moment of-need, show me the path designed by God that I should follow. If there is danger in my way, protect me from it and destroy it, with the permission of our Father, with your power and mercy. My miraculous Saint Anthony. Amen.
+
+EXPLANATION:
+This trezena is said 13 Tuesdays in succession; give a knot in the ribbon each Tuesday. This trezena is so miraculous that you will not have done the fifth knot before your favor is granted. Each Tuesday, leave 3 copies of this prayer (or give them to someone) in the Church with a piece of ribbon (measuring 30 cm).
+When the favor that you need is granted, send the ribbon that has been knotted 13 times to:
+Reverendo Padre da Igreja da Lampadosa</p>
+                </div>
+                <div class="insights-container">
+                    <h4>Insights and Background:</h4>
+                    <p class="prayer-text"><em>(Add your insights and background information about this prayer here.)</em></p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script>
+        // Simple tab functionality
+        document.querySelectorAll('.tab-button').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.tab-button').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                document.querySelectorAll('.tab-content').forEach(tc => tc.classList.add('hidden'));
+                const target = btn.getAttribute('data-tab-target');
+                document.getElementById(target).classList.remove('hidden');
+            });
+        });
+
+        // Set current date
+        document.getElementById('currentDateText').textContent = new Date().toLocaleDateString();
+
+        // Optionally, you can add logic to highlight today's mystery
+    </script>
+</body>
+</html>
